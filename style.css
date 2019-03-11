@@ -1,19 +1,42 @@
+/*FONT-FACE*/
+@font-face {
+	font-family: aniron;
+	src: url(aniron.ttf);
+  }
+
+  @font-face{
+	  font-family: tengwar;
+	  src: url(tngan.ttf);
+  }
+
+.symbol{
+	font-family: tengwar;
+}
+
+@font-face{
+	font-family: partybusiness;
+	src: url(partybusiness.ttf);
+}
+
 /****** NAV *********/
 .bg-light {
-    background-color: #121b23!important;
+    background-color: #f46500!important;
 }
 
 h1{
 	color: white;
+	font-family: aniron;
 }
 
 h2{
 	color: black;
+	font-family: aniron;
 }
 
 h3{
 	margin-top: 25px;
 	margin-bottom: 25px;
+	font-family: aniron;
 }
 
 p{
@@ -34,15 +57,21 @@ a.nav-link {
 
 
 /*****************BODY***********************/
+body{
+	font-family: partybusiness;
+	font-size: 1.5em;
+}
 .container-style{
 	padding-left: 20px;
 	padding-right: 20px;
 }
 .badge-secondary {
     padding: 14px;
-	font-size: 15px;
+	font-size: 1em;
 	margin: 8px;
 	margin-bottom: 25px;
+	color: #545454 !important;
+	background-color: white !important;
 }
 
 .center-items{

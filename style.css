@@ -18,29 +18,19 @@
 	src: url(partybusiness.ttf);
 }
 
-/****** NAV *********/
+/*CAROUSEL*/
+.carousel-caption p{
+	color: #f46500;
+	font-size: 1em;
+}
+
+/*NAV*/
+a.nav-link {
+    margin-right: 22px;
+}
+
 .bg-light {
     background-color: #f46500!important;
-}
-
-h1{
-	color: white;
-	font-family: aniron;
-}
-
-h2{
-	color: black;
-	font-family: aniron;
-}
-
-h3{
-	margin-top: 25px;
-	margin-bottom: 25px;
-	font-family: aniron;
-}
-
-p{
-	color: black;
 }
 
 .navbar-light .navbar-nav .nav-link {
@@ -56,15 +46,12 @@ a.nav-link {
 }
 
 
-/*****************BODY***********************/
+/*BODY*/
 body{
 	font-family: partybusiness;
 	font-size: 1.5em;
 }
-.container-style{
-	padding-left: 20px;
-	padding-right: 20px;
-}
+
 .badge-secondary {
     padding: 14px;
 	font-size: 1em;
@@ -81,25 +68,107 @@ body{
 	margin-right: 25px;
 }
 
-/************EXTRAS************/
+/* SECTIONS*/
+section{
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#section-2, #section-5, #section-7{
+	background-image: url(img/dark-honeycomb.png);
+}
+
+#section-5 h3, #section-7 h3, #section-2 h3{
+	color: white;
+}
+
+#section-2 p{
+	color: white;
+}
+
+h1{
+	color: white;
+	font-family: aniron;
+	margin-right: 10px;
+}
+
+h2{
+	color: white;
+	font-family: aniron;
+}
+
+h3{
+	margin-top: 25px;
+	margin-bottom: 25px;
+	font-family: aniron;
+}
+
+p{
+	color: black;
+}
+
+/*EXTRAS*/
+.media img{
+	max-width: 40%;
+}
+
+.media-body{
+	font-size: 75%;
+}
+
 .boton-center {
     margin: 0 auto;
     display: flex;
 }
 
+footer a{
+	color: #f56300!important;
+}
 
-/**********CARDS************/
+.badge:hover{
+	background-color:  #f56300!important;
+}
 
-.card img{
+button{
+	background-color: #f56300!important;
+	padding: 10px!important;
+}
+
+/*CARDS*/
+.card{
+	border: 1px solid rgba(253, 131, 0, 0.54)!important;
+	padding: 4px;
+}
+
+.card-body{
+	background-image: url(img/dark-honeycomb.png);
+}
+
+.card-body p{
+	color: white;
+}
+
+.card-header{
+	background-color: rgb(224, 101, 0)!important;
+}
+
+.card.section-part {
+	margin-bottom: 30px;
+	padding-bottom: 30px;
+}
+
+.container-personage img{
 	opacity: 0.3;
 }
 
-.card img:hover {
+.container-personage img:hover {
   	
 	opacity: 1.0;
 }
 
-.card img:hover + .reward{
+.container-personage img:hover + .reward{
 	visibility: hidden;
 }
 
@@ -127,7 +196,7 @@ body{
     top: 50%;
     left: 25%;
 	text-align: center;
-	font-size: 3em;
+	font-size: 3.5em;
 	color: white;
 	visibility: hidden;
 }
@@ -141,14 +210,13 @@ span{
 
 }
 
-/**********FOOTER******/
+/*FOOTER*/
 footer{
 	background-color: black;
 	color: white;
 	display: flex;
 	align-items: center;
 	padding: 25px;
-	margin-top: 25px;
 }
 
 footer ul{
